@@ -30,19 +30,24 @@ These chunks specify the data layout.
 
 Here we have the list of root components in order of appearances:
 <!-- used https://tanod.dev/tools/markdown-table-generator/ for the table cuz having to edit tables with text files is miserable -->
-| Component       |    Type |                                                          Function |
-| :-------------- | ------: | ----------------------------------------------------------------: |
-| PlasmaGraphics  |      UI |                                              Version? Is always 1 |
-| Seal            |       ? | When used the other names are obfuscated using a custom algorithm |
-| Texture         | Complex |        Describes an image, the format, the wrapping and filtering |
-| SmoothMeshShape | Complex |                                                                 ? |
-| TextShape       | Complex |                                            Text string to display |
-| Transformation  | Complex |                                           Mostly arrays/matrices? |
-| Display         | Complex |                                 Seems to behave like a rectangle? |
-| Widget          | Complex |                                                                 ? |
-| Button          | Complex |              Derivate of Widget with extra info about button type |
-| Edit            | Complex |                    Derivate of Widget (what are the differences?) |
-| Node            | Complex |                                  ? can have many children or none |
+| Component       |     Type |                                                          Function |
+| :-------------- | -------: | ----------------------------------------------------------------: |
+| PlasmaGraphics  |      Int |                                              Version? Is always 1 |
+| Seal            |        ? | When used the other names are obfuscated using a custom algorithm |
+| Texture         |  Complex |        Describes an image, the format, the wrapping and filtering |
+| SmoothMeshShape |  Complex |                                                                 ? |
+| TextShape       |  Complex |                                            Text string to display |
+| Transformation  |  Complex |                                           Mostly arrays/matrices? |
+| Display         |  Complex |                                 Seems to behave like a rectangle? |
+| Widget          |  Complex |                                                                 ? |
+| Button          |  Complex |              Derivate of Widget with extra info about button type |
+| Edit            |  Complex |                    Derivate of Widget (what are the differences?) |
+| Node            |  Complex |                                  ? can have many children or none |
+| pageWidth       |    Float |                                                                   |
+| pageHeight      |    Float |                                                                   |
+| dpi             |    Float |                                                                   |
+| unit            |      Int |                                                                   |
+| pageColor       | 4 Floats |                                                        RBGA color |
 
 WIP Notes
 
