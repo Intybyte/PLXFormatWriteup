@@ -49,6 +49,8 @@ Here we have the list of root components in order of appearances:
 | unit            |      Int |                                                                   |
 | pageColor       | 4 Floats |                                                        RBGA color |
 
+All the complex types appear more than once and all have a unique identifier `wname`.
+
 WIP Notes
 
 A lot of assets seem to use Attribute.frame multiple times and the amount of Attribute.frame is the same, are they alternative version of the same asset?
